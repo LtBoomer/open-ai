@@ -1,0 +1,21 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 10px 10px;
+  gap: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  .icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    input {
+      height: 25px;
+      width: 100%;
+    }
+    img {
+      position: absolute;
+      right: 5px;
+    }
+  }
+}
